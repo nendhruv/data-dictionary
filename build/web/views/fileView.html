@@ -1,0 +1,45 @@
+
+     <ul class="user-files col-sm-12">
+        <!--<li ng-repeat="file in files | filter:query" class="files">
+            <span class="glyphicon glyphicon-book file-icon"></span><span><b>{{file.name}}</b></span><br>
+          <span class="file-date">Uploaded on: {{file.date}}</span><span class="glyphicon glyphicon-trash trash"></span>
+         </li>-->
+         <li ng-repeat="name in files">
+         <label class="file-uname" style="text-decoration:underline;">{{name.u_name}} </label><label  ng-click="new_item()">   +   </label> 
+         </li>
+
+         <ul class="add-folder">
+
+         	<li ng-repeat="folder in files" >
+
+               <label ng-click="new_file()">+</label> <label>folder_name</label>
+         	</li>
+
+
+         	<ul id="add-file">
+
+         		<li ng-repeat="file in files" class="faile">
+
+         			file_name
+
+
+
+         		</li>
+
+
+
+         	</ul>
+            
+         </ul>
+
+     </ul>
+     
+
+
+
+      <div class="col-sm-12 zero-pads">
+        <input type="text" class="search-files " placeholder="Search Files" ng-model="query" />
+      </div>
+
+
+   

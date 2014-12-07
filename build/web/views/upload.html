@@ -1,0 +1,100 @@
+<heady class="rest-head"></heady>
+
+<div class="">
+<div class="row">
+  <div class="col-sm-3 file-col">
+
+
+  <files></files>
+ 
+
+</div>
+
+
+   <div class="col-sm-9" ng-if="editor">
+     
+     <div class="row">
+      <div class="col-sm-12" style="background-color: #ecf0d6; height:330px;">
+
+       <ui-codemirror ui-codemirror-opts="editorOptions" ng-model="code" ui-refresh='isSomething' style="padding:10%;"></ui-codemirror>
+
+      </div>
+
+     </div>
+
+
+     <div class="row">
+
+      <div class="col-sm-4 col-sm-offset-4">
+
+     <button class="dictionary-btn" ng-click="editor()">Generate Dictionary</button>
+   </div>
+ </div>
+  </div>
+
+
+  <div class="col-sm-9" ng-if="!editor">
+    <div class="row">
+    <div class="col-sm-12">
+ <table border="1" class="col-sm-3 col-sm-offset-3">
+  <tr>
+    <th>Var</th>
+    <th>Val</th>
+  </tr>
+  <tr>
+    <td>i</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>l</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>k</td>
+    <td>30</td>
+  </tr>
+
+</table>
+
+
+ <table border="1" class="col-sm-3 col-sm-offset-1">
+  <tr>
+    <th>function</th>
+    <th>return type</th>
+  </tr>
+  <tr>
+    <td>get_value</td>
+    <td>int</td>
+  </tr>
+  <tr>
+    <td>find_route</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <td>day_bill</td>
+    <td>List</td>
+  </tr>
+
+</table>
+
+    </div>
+
+    </div>
+
+
+      <div class="row">
+
+      <div class="col-sm-4 col-sm-offset-4">
+
+     <button class="dictionary-btn" ng-click="editor()">Download Dictionary</button>
+   </div>
+ </div>
+
+  </div>
+
+
+
+
+</div>
+
+</div>

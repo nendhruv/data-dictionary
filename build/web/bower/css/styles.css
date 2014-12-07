@@ -1,0 +1,396 @@
+﻿homeheady{
+	background-color: #fff;
+	height: 50px;
+	top: 0px;
+	position: absolute;
+	z-index: 7;
+	width: 100%;
+}
+
+heady{
+	background-color: #fff;
+	height: 50px;
+	top: 0px;
+
+	z-index: 7;
+	width: 100%;
+}
+
+
+
+
+.col-sm-3{
+	width: 20%;
+}
+
+.inh{
+    height: inherit;
+}
+
+li{
+	list-style-type: none;
+}
+
+.file-date{
+	font-size: 0.7em;
+}
+
+.file-icon{
+	padding: 3%;
+}
+
+.files{
+	border-bottom: 1px solid;
+
+
+}
+ .file:hover{
+ 	cursor: pointer;
+ }
+
+td,th{
+	padding: 5%;
+}
+
+.files:hover{
+	cursor: pointer;
+}
+
+.user-files{
+		overflow: auto;
+	height: 100%;
+	background-color: #ecf0d6;
+	color: #5E677A;
+}
+
+.user-files li:first-child{
+    font-size: 1em;
+    padding: 0;
+    border: 0;
+    
+}
+
+.user-files li{
+    font-size: 1.2em;
+    border-bottom: 1px solid;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.search-files{
+	position: fixed;
+	bottom: 0px;
+    width: 15%;
+	border: 3px solid #69bc63;
+	height: 40px;
+}
+
+.log-out{
+    color: #5e677a;
+    margin-top: 1%;
+}
+
+.log-out a{
+    color: #5e677a;
+}
+
+.gen-btn{
+    background: #5e677a;
+    border: 0;
+    color: #fff;
+    height: 26px;
+    width: 25%;
+}
+
+.gen-box{
+    padding: 0%;
+}
+
+.gen-files{
+    width: 52%;
+	border: 3px solid #69bc63;
+	height: 40px;
+}
+
+#coder,#coder1,#coder2{
+    margin-top: 5%;
+    border: 1px solid;
+}
+
+
+.trash{
+	font-size: 1em;
+	color: rgb(237,28,36);
+	margin-left: 10%;
+	transition: font-size 0.2s;
+}
+
+.trash:hover{
+    font-size: 1.2em;
+     color: rgb(187,15,23);
+
+    transition: font-size 0.2s;
+    
+    cursor: pointer;
+   }
+
+
+   .code-img{
+   	background-size: cover;
+   	height: 560px;
+   	padding: 0%
+   }
+
+.overlay{
+	color: #fff;
+	width: 100%;
+	height: 560px;
+	position: absolute;
+	z-index: 5;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.home-text{
+	top: 30%;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Sigmar One', cursive;
+	text-shadow: 1px 1px 5px;
+	/*font-family: 'Bree Serif', serif;
+	font-family: 'Fredoka One', cursive;*/
+}
+
+.row{
+	margin: 0%;
+}
+
+
+.image-section, .file-col,.zero-pads{
+	padding: 0%;
+}
+
+.try-it{
+	background-color: #69bc63;
+	border: 4px solid rgba(255,255,255,0);
+	box-shadow: none;
+	font-size: 0.7em;
+	height: 70px;
+	width: 70%;
+	color: #fff;
+	margin-top: 20%;
+}
+
+.register-section{
+background-color: #fff;
+font-family: 'Bree Serif', serif;
+}
+
+.head-shadow{
+  box-shadow: 0px 1px 10px #69bc63;
+}
+
+.user-name{
+    font-weight: bold;
+    color: #5e677a;
+    font-size: 1.2em;
+    text-shadow: 0 0 1px;
+}
+
+.hello{
+    color: #5e677a;
+    font-weight: 700;
+}
+
+.marg{
+    margin-right: 5%;
+}
+
+.ok-done{
+    text-align: center;
+    font-size: 1.5em;
+    color: #5e677a;
+}
+
+.back-btn{
+    border: 3px solid;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.register-form{
+	border: 3px solid #69bc63;
+	height: 50px;
+}
+
+.register-btn{
+	background-color: #69bc63;
+	margin-top: 15%;
+	height: 70px;
+	
+	border: 0px;
+	color: #fff;
+	font-size: 2em;
+}
+
+.dictionary-btn{
+	background-color: #69bc63;
+	margin-top: 3%;
+	height: 50px;
+	width: 20%;
+	border: 0px;
+	color: #fff;
+	font-size: 1.8em;
+        text-shadow: 0 0 1px;
+}
+
+
+.compare-btn{
+	background-color: #69bc63;
+	margin-top: 5%;
+	height: 50px;
+	width: 25%;
+	border: 0px;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.register-here{
+	color: #000;
+	font-size: 2em;
+	text-align: center;
+	
+
+}
+
+.gap{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.file-uname{
+	font-size: 1.3em;
+}
+/*
+   ::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+} */    
+
+.login-btn{
+    background-color: #69bc63;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    width: 90%;
+    height: 30px;
+}
+
+.login-inp{
+    border: 2px solid #69bc63;
+    border-radius: 15px;
+}
+
+.login-marg{
+    margin-top: 1%;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Upload File';
+  display: inline-block;
+  background: #69bc63;
+  color: #fff;
+  border: 0;
+  
+  padding: 4% 15%;
+  width: 72%;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.upload-btn{
+    background: #69bc63;
+    border: 0;
+    height: 40px;
+    color: #fff;
+    margin-top: -14%;
+    margin-left: 30%;
+    font-size: 1.2em;
+    text-shadow: 0 0 4px;
+    width: 50%;
+}
+
+.gen-input{
+    border: 2px solid #5E677A;
+}
+.marg2{
+   margin-top: 1%;
+}
+
+.or{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 0 0 1px;
+}
+
+
+
+
+/*
+
+    Name:       ParaÃ­so (Light)
+    Author:     Jan T. Sott
+
+    Color scheme by Jan T. Sott (https://github.com/idleberg/Paraiso-CodeMirror)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+
+*/
+
+.cm-s-paraiso-light.CodeMirror {background: #e7e9db; color: #41323f;}
+.cm-s-paraiso-light div.CodeMirror-selected {background: #b9b6b0 !important;}
+.cm-s-paraiso-light .CodeMirror-gutters {background: #e7e9db; border-right: 0px;}
+.cm-s-paraiso-light .CodeMirror-guttermarker { color: black; }
+.cm-s-paraiso-light .CodeMirror-guttermarker-subtle { color: #8d8687; }
+.cm-s-paraiso-light .CodeMirror-linenumber {color: #8d8687;}
+.cm-s-paraiso-light .CodeMirror-cursor {border-left: 1px solid #776e71 !important;}
+
+.cm-s-paraiso-light span.cm-comment {color: #e96ba8;}
+.cm-s-paraiso-light span.cm-atom {color: #815ba4;}
+.cm-s-paraiso-light span.cm-number {color: #815ba4;}
+
+.cm-s-paraiso-light span.cm-property, .cm-s-paraiso-light span.cm-attribute {color: #48b685;}
+.cm-s-paraiso-light span.cm-keyword {color: #ef6155;}
+.cm-s-paraiso-light span.cm-string {color: #fec418;}
+
+.cm-s-paraiso-light span.cm-variable {color: #48b685;}
+.cm-s-paraiso-light span.cm-variable-2 {color: #06b6ef;}
+.cm-s-paraiso-light span.cm-def {color: #f99b15;}
+.cm-s-paraiso-light span.cm-bracket {color: #41323f;}
+.cm-s-paraiso-light span.cm-tag {color: #ef6155;}
+.cm-s-paraiso-light span.cm-link {color: #815ba4;}
+.cm-s-paraiso-light span.cm-error {background: #ef6155; color: #776e71;}
+
+.cm-s-paraiso-light .CodeMirror-activeline-background {background: #CFD1C4 !important;}
+.cm-s-paraiso-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

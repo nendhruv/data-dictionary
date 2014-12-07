@@ -1,0 +1,125 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="bower/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bower/css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Fredoka+One|Sigmar+One|Bree+Serif' rel='stylesheet' type='text/css'>
+  <!--<script src="bower/angular/angular.js"></script>
+  <script src="bower/angular/angular-route.js"></script>
+  <link rel="stylesheet" type="text/css" href="bower/css/codemirror.css">
+<script type="text/javascript" src="bower/angular/codemirror.js"></script>
+<script type="text/javascript" src="bower/angular/ui-codemirror.js"></script>
+  <script src="app.js"></script> 
+  <script src="controllers/upload.js"></script>-->
+</head>
+<body>
+
+    <header>
+ <div class="row">
+  <div class="col-sm-2 col-sm-offset-1">
+   <img src="img/logo.png">
+  </div>
+     <form action="login_process.jsp" method="POST">
+     <div class="col-sm-offset-3 col-sm-2 login-marg">
+         <input placeholder="username" name="u_name" class="login-inp" type="text" />
+     </div>
+     
+     
+     <div class="col-sm-2 login-marg">
+         <input placeholder="password" name="pwd" class="login-inp" type="password" />
+     </div>
+     
+     <div class="col-sm-1 login-marg">
+         <button class="login-btn">Log</button>
+     </div>
+     </form>
+ </div>
+
+</header>
+
+  <section class="row " >
+
+  <div class="col-sm-12 image-section">
+    <div class="overlay">
+      <div class="home-text col-sm-6 col-sm-offset-3">
+       Get your code's Dictionary Instantly lol !
+ 
+
+
+      </div>
+      <div class="home-text col-sm-4 col-sm-offset-4">
+<a href="http://localhost:8080/dictionary/views/index.html#/home/user">       <button class="try-it">Give It a Try</button></a>
+     </div>
+    </div>
+     <img class="col-sm-12 code-img" src="img/home.jpg"/>
+  </div>
+</section>
+
+
+<section class="row register-section">
+
+  <div class="row gap">
+    <span class="register-here col-sm-6 col-sm-offset-3">Register to have some more fun. ;)</span>
+  </div>
+
+    <form class="row" action="register_process.jsp" method="post">
+ <div class="col-sm-4">
+   <div class="row gap">
+     <div class="col-sm-10 col-sm-offset-1">
+       <input type"text" class="col-sm-12 register-form" name="f_name" placeholder="First Name"/>
+     </div>
+   </div>
+   <div class="row gap">
+     <div class="col-sm-10 col-sm-offset-1">
+       <input type"text" class="col-sm-12 register-form" name="l_name" placeholder="Last Name"/>
+     </div>
+   </div>
+</div>
+
+  <div class="col-sm-4">
+   <div class="row gap">
+     <div class="col-sm-10 col-sm-offset-1">
+         <input type"text" class="col-sm-12 register-form" placeholder="Username" name="u_name"/>
+    
+     </div>
+   </div>
+   <div class="row gap">
+     <div class="col-sm-10 col-sm-offset-1">
+       <input type"password" class="col-sm-12 register-form" name="pwd" placeholder="Password"/>
+     </div>
+   </div>
+</div>
+   
+  
+
+
+ <div class="col-sm-2 col-sm-offset-1">
+
+<button type="submit" class="register-btn col-sm-12" >Register</button>
+   
+ </div>
+
+
+</form>
+</section>
+
+</body>
+</html><!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+
+<!DOCTYPE html>
+
+<html>
+<body>
+<center>
+<h1><b>DATA DICTIONARY</b></h1><br><br><br><br><br>
+	<form action="login_process.jsp" >
+            
+	Username<input type="text" name="u_name"><br/>
+	Password<input type="password" name="pwd"><br><br>
+	<input type="submit" value="login">
+<input type="button" value="register" onClick="parent.location='home.html';">
+	</form>
+</center>
+</body>
+</html>-->
